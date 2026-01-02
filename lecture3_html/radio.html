@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <input type="radio" name="fruit" id="apple" value="apple" />
+        <label for="apple">apple</label>
+
+        <input type="radio" name="fruit" id="mango" value="mango" />
+        <label for="apple">apple</label>
+
+        <input type="radio" name="fruit" id="banana" value="banana" />
+        <label for="apple">apple</label>
+
+        <!-- //name same 
+        // name jaye toh value define karo -->
+
+        <div>
+            Choose your fruit:
+            <input type="checkbox" name="fruit" id="apple" value="apple" />
+            <label for="apple">apple</label>
+
+            <input type="checkbox" name="fruit" id="mango" value="mango" />
+            <label for="apple">mango</label>
+
+            <input type="checkbox" name="fruit" id="banana" value="banana" />
+            <label for="apple">banana</label>
+            <br>
+
+            <button type="submit">submit</button>
+        </div>
+
+        <div>
+            Choose your profeesion:
+            <select name="profession" id="profession">
+                
+                <option>select your option</option>
+                <option value="stu">Student</option>
+                <option value="dev">Developer</option>
+                <option value="doc">Doctor</option>
+
+            </select>
+
+            <button type="submit">submit</button>
+        </div>
+
+        <hr>
+
+        <label for="volume">Volume</label>
+        <input type="range" id="volume" min="0" max="100" name="vol" value="70" />
+
+        <hr>
+        <label for="feedback">please provide your valuable feedback: </label>
+        <textarea id="feedback" name="feedback" rows="5" cols="100" placeholder="write your feedback here"></textarea>
+
+
+
+
+    </form>
+</body>
+
+</html>
