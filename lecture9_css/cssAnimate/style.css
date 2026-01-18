@@ -1,0 +1,55 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    animation-name: colAnimate;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes fontAnimation {
+   from {
+    font-size: 20px;
+   } 
+   to {
+    font-size: 50px;
+   }
+}
+
+@keyframes colAnimate {
+    0% {
+        background-color: aliceblue;
+    }
+    10% {
+        background-color: yellow;
+    }
+    20% {
+        background-color: blueviolet;
+    }
+    30% {
+        background-color: rgb(31, 231, 134);
+    }
+    40% {
+        background-color: rgb(226, 182, 22);
+    }
+    50% {
+        background-color: rgb(202, 17, 143);
+    }
+    60% {
+        background-color: rgb(11, 220, 91);
+    }
+    70% {
+        background-color: rgb(26, 15, 239);
+    }
+    80% {
+        background-color: sienna;
+    }
+    90% {
+        background-color: hotpink;
+    }
+    100% {
+        background-color: indianred;
+    }
+}
