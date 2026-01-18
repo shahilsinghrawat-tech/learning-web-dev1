@@ -1,0 +1,49 @@
+.board {
+    border: 2px solid rgb(20, 162, 218);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.keys {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: grey;
+    font-size: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav {
+    height: 50px;
+    width: 900px;
+    font-size: 24px;
+    border: 2px solid skyblue;
+    background-color: pink;
+    display: flex;
+    justify-content: flex-start;
+    
+    border-radius: 10px;
+    
+}
+
+.nav-link {
+    height: 50px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
