@@ -1,0 +1,51 @@
+/* div {
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    border: 5px solid yellow;
+    border-top: 5px dashed blue;
+    border-radius: 50px;
+}
+
+h1 {
+    border: 5px dashed green;
+} */
+
+/* span {
+    padding: 50px;
+    background-color: aqua;
+    margin: 50px;
+    border: 2px solid blue;
+} */
+
+/* div {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border: 5px solid yellow;
+    margin: 20px;
+    border-radius: 50px;
+    display: inline-block;
+} */
+
+h1 {
+    border: 2px solid black;
+    width: 50%;
+}
+
+#outer {
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    font-size: 10px;
+
+}
+
+ #inner {
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    margin-left: 10%;
+    font-size: 3em;
+    padding: 1em;
+ }
