@@ -1,0 +1,35 @@
+/* h1 {
+    color: brown;
+    background-color: antiquewhite;
+
+}
+
+p{
+    color: rgb(red, rgb(17, 58, 17), blue);
+    background-color: aquamarine;
+
+}
+
+button {
+    color: gold;
+    background-color: silver
+} */
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+h2 {
+    font-weight: 400;
+    text-decoration: red underline;
+
+}
+
+a {
+    text-decoration: none;
+}
